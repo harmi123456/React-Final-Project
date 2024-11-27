@@ -3,6 +3,9 @@
   padding: 0px;
   box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
 
 /* //header */
 .header {
@@ -13,6 +16,7 @@
   background-color: white;
   /* border: 1px solid; */
   padding: 40px;
+  z-index: 1000;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -110,7 +114,7 @@
       flex-direction: column;
       justify-content: space-evenly;
       align-items: center;
-
+     
       .profile_pic {
         height: 180px;
         width: 180px;
@@ -198,24 +202,34 @@
           justify-content: center;
           letter-spacing: 2px;
           font-weight: bold;
+          a{
+            text-decoration: none;
+          }
         }
 
         #pro_1 {
           background-color: blue;
-          color: white;
+          a{
+            text-decoration: none;
+            color: white;
+          }
         }
 
         #pro_1:hover {
           background-color: white;
-          color: blue;
+          a{
+            color: blue;
+          }
           transition: 1s;
           cursor: pointer;
         }
 
         .project:hover {
           background-color: blue;
-          color: white;
           transition: 1s;
+          a{
+            color: white;
+          }
         }
       }
     }
@@ -257,8 +271,9 @@
       justify-content: space-evenly;
       text-align: center;
 
-      .icon img {
-        height: 50px;
+      .icon{
+        font-size: 40px;
+       
       }
 
       p {
@@ -271,7 +286,7 @@
 .sec4 {
   height: 300px;
   /* border: 2px solid; */
-  background: linear-gradient(to right, rgb(60, 60, 223), rgb(132, 132, 255));
+  background: linear-gradient(to right, #7da3e1, #a8e0fa);
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -280,7 +295,7 @@
     height: 80%;
     width: 15%;
     border: 1px solid rgba(255, 255, 255, 0.322);
-    color: white;
+    color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -358,6 +373,21 @@
 
 }
 
+/* //project */
+.live_web{
+  height: 30px;
+  position: sticky;
+  bottom: 0px;
+  width: 100%;
+  background: rgb(2, 51, 58);
+  border: transparent;
+  color: white;
+}
+.live_web:hover{
+  background-color: rgb(22, 47, 71);
+  color: white;
+  transition: 1s;
+}
 
 .sec6 {
   height: auto;
@@ -777,7 +807,8 @@ img.vert-move {
 .contact {
   height: 1000px;
   /* border: 2px solid; */
-  background: url("https://designmodo.com/wp-content/uploads/2012/01/5-Contact-Us-by-Ivan-Poddubchenko.jpg");
+  background: url("./public/footer_back.jpg");
+  /* background: url("https://designmodo.com/wp-content/uploads/2012/01/5-Contact-Us-by-Ivan-Poddubchenko.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1008,6 +1039,7 @@ img.vert-move {
     display: flex;
     flex-direction: column;
     height: auto;
+    margin-top: 80px;
 
     .right {
       width: 100%;
