@@ -376,70 +376,70 @@ export default function Home() {
           <div className="projects-container" ref={sliderRef}>
 
             <div className="project-card">
-              <img src="/public/craft.jpeg" alt="Craft Project" className="project-image" />
+              <img src="/craft.jpeg" alt="Craft Project" className="project-image" />
               <h3 className="project-title">Craft Project</h3>
               <p className="project-description">A beautiful craft-making project.</p>
               <button className="live_web" onClick={craft_web}>Explore More</button>
             </div>
 
             <div className="project-card">
-              <img src="/public/cakestore.jpeg" alt="Craft Project" className="project-image" />
+              <img src="/cakestore.jpeg" alt="Craft Project" className="project-image" />
               <h3 className="project-title">cake Project</h3>
               <p className="project-description">Delicious Cakes</p>
               <button className="live_web" onClick={cake_web}>Explore More</button>
             </div>
 
             <div className="project-card">
-              <img src="/public/foodly.jpeg" alt="Craft Project" className="project-image" />
+              <img src="/foodly.jpeg" alt="Craft Project" className="project-image" />
               <h3 className="project-title">Foodly Project</h3>
               <p className="project-description">"Discover recipes, savor flavors, and enjoy  <br /> the art of cooking with Foodly!"</p>
               <button className="live_web" onClick={foodly_web}>Explore More</button>
             </div>
 
             <div className="project-card">
-              <img src="/public/basiliico.jpeg" alt="Portfolio Project" className="project-image" />
+              <img src="/basiliico.jpeg" alt="Portfolio Project" className="project-image" />
               <h3 className="project-title">Hotel</h3>
               <p className="project-description">"Enjoy your Meal"</p>
               <button className="live_web" onClick={basilico_web}>Explore More</button>
             </div>
 
             <div className="project-card">
-              <img src="/public/cookies.jpeg" alt="E-commerce Project" className="project-image" />
+              <img src="/cookies.jpeg" alt="E-commerce Project" className="project-image" />
               <h3 className="project-title">Cookies</h3>
               <p className="project-description">"Cookies are delicious baked treats, <br /> often sweet and crispy, enjoyed <br /> as snacks or desserts worldwide."</p>
               <button className="live_web" onClick={cookie_web}>Explore More</button>
             </div>
 
             <div className="project-card">
-              <img src="/public/hotel.jpeg" alt="Blog Project" className="project-image" />
+              <img src="/hotel.jpeg" alt="Blog Project" className="project-image" />
               <h3 className="project-title"> Hotel</h3>
               <p className="project-description">"Stay fearlessly"</p>
               <button className="live_web" onClick={hotel_web}>Explore More</button>
             </div>
 
             <div className="project-card">
-              <img src="/public/shutter.jpeg" alt="Blog Project" className="project-image" />
+              <img src="/shutter.jpeg" alt="Blog Project" className="project-image" />
               <h3 className="project-title">Shutter</h3>
               <button className="live_web" onClick={shutter_web}>Explore More</button>
               {/* <p className="project-description"> ""</p> */}
             </div>
 
             <div className="project-card">
-              <img src="/public/spark.jpeg" alt="Blog Project" className="project-image" />
+              <img src="/spark.jpeg" alt="Blog Project" className="project-image" />
               <h3 className="project-title">Blog Project</h3>
               <p className="project-description">A blog for sharing ideas and stories.</p>
               <button className="live_web" onClick={spark_web}>Explore More</button>
             </div>
 
             <div className="project-card">
-              <img src="/public/sunshine.jpeg" alt="Blog Project" className="project-image" />
+              <img src="/sunshine.jpeg" alt="Blog Project" className="project-image" />
               <h3 className="project-title">Wedding</h3>
               <p className="project-description">"A wedding is a celebration of love and <br /> commitment, uniting two souls in a lifelong bond."</p>
               <button className="live_web" onClick={wedding_web}>Explore More</button>
             </div>
 
             <div className="project-card">
-              <img src="/public/zomato.jpeg" alt="Blog Project" className="project-image" />
+              <img src="/zomato.jpeg" alt="Blog Project" className="project-image" />
               <h3 className="project-title">Zomato 😋</h3>
               <p className="project-description"> "Crave it, order it, love it—deliciousness delivered!"</p>
               <button className="live_web" onClick={zomato_web}>Explore More</button>
@@ -455,42 +455,42 @@ export default function Home() {
         <div className="skill">
           {/* <h1>Skills</h1> */}
           <div className="html">
-            <img className="vert-move" src="/public/html.png" />
+            <img className="vert-move" src="/html.png" />
             {/* <p>HTML</p> */}
           </div>
 
           <div className="css">
-            <img className="vert-move" src="/public/css.png" />
+            <img className="vert-move" src="/css.png" />
             {/* <p>CSS</p> */}
           </div>
 
           <div className="javascript">
-            <img className="vert-move" src="/public/javascript.jpg" />
+            <img className="vert-move" src="/javascript.jpg" />
             {/* <p>JAVASCRIPT</p> */}
           </div>
 
           <div className="jQuery">
-            <img className="vert-move" src="/public/jquery.png" />
+            <img className="vert-move" src="/jquery.png" />
             {/* <p>jQuery</p> */}
           </div>
 
           <div className="bootstrape">
-            <img className="vert-move" src="/public/bootstrape.jpg" />
+            <img className="vert-move" src="/bootstrape.jpg" />
             {/* <p>BootStrape</p> */}
           </div>
 
           <div className="react">
-            <img className="vert-move" src="/public/react.GIF" />
+            <img className="vert-move" src="/react.GIF" />
             <p>React.js</p>
           </div>
 
           <div className="git">
-            <img className="vert-move" src="/public/git.png" />
+            <img className="vert-move" src="/git.png" />
             {/* <p>Git</p> */}
           </div>
 
           <div className="github">
-            <img className="vert-move" src="/public/github.png" alt="" />
+            <img className="vert-move" src="/github.png" alt="" />
           </div>
 
         </div>
@@ -499,7 +499,7 @@ export default function Home() {
         <section class="main-container" id='resume'>
 
           <div className="resumee">
-            <img src="/public/resumee.png" alt="" />
+            <img src="/resumee.png" alt="" />
           </div>
 
           <div class="main">
@@ -510,7 +510,7 @@ export default function Home() {
                 {/* <img src="https://www.yudiz.com/codepen/animated-portfolio/web-dev-icon.png" alt="web design icon" /> */}
               </div>
               <div class="icon-block">
-                <img src="/public/game.png" alt="" />
+                <img src="/game.png" alt="" />
                 {/* <img src="https://www.yudiz.com/codepen/animated-portfolio/game-design-icon.png" alt="game design icon" /> */}
               </div>
               <div class="icon-block">
@@ -529,15 +529,15 @@ export default function Home() {
                 {/* <img src="https://www.yudiz.com/codepen/animated-portfolio/app-icon.png" alt="app icon" /> */}
               </div>
               <div class="icon-block">
-                <img src="/public/blockchain.png" alt="" />
+                <img src="/blockchain.png" alt="" />
                 {/* <img src="https://www.yudiz.com/codepen/animated-portfolio/blockchain-icon.png" alt="blockchain icon" /> */}
               </div>
               <div class="icon-block">
-                <img src="/public/arvr.png" alt="" />
+                <img src="/arvr.png" alt="" />
                 {/* <img src="https://www.yudiz.com/codepen/animated-portfolio/arvr-icon.png" alt="ar-vr icon" /> */}
               </div>
               <div class="icon-block">
-                <img src="/public/ai.png" alt="" />
+                <img src="/ai.png" alt="" />
                 {/* <img src="https://www.yudiz.com/codepen/animated-portfolio/artificial-intelligence-icon.png" alt="artificial intelligence icon" /> */}
               </div>
             </div>
@@ -579,7 +579,7 @@ export default function Home() {
         <div className="talk">
 
           <div className="envelop">
-            <img src="/public/contact-img.jpg" alt="" />
+            <img src="/contact-img.jpg" alt="" />
             {/* <img src="https://digitalmarketinglab.co.in/assets/images/contact-img.jpg" alt="" /> */}
           </div>
 

@@ -395,7 +395,7 @@ html{
   .skill {
     height: 800px;
     /* border: 2px solid; */
-    background: linear-gradient(rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.366)), url("/public/girl_3.gif");
+    background: linear-gradient(rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.366)), url("/girl_3.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
