@@ -1,10 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 
 export default function Home() {
-  const [activeSection, setActiveSection] = useState('');
-  const handleNavigation = (section) => {
-    setActiveSection(section);
-  };
 
   const [isNavVisible, setIsNavVisible] = useState(false);
 
@@ -95,7 +91,7 @@ export default function Home() {
       return () => clearInterval(timer)
     }
 
-    if (count3 < 434) {
+    if (count3 < 4 ) {
       const timer = setInterval(() => {
         setcount3((prevCount) => prevCount + 1)
       }, 1)
@@ -137,45 +133,45 @@ export default function Home() {
     window.location.href = "https://www.instagram.com/hxrmii__.04/profilecard/?igsh=eWd2cGsxdTJwb3pl";
   };
 
-  const craft_web = () => {
-    window.location.href = "https://craft-inky.vercel.app/?vercelToolbarCode=qafqnfNnjnER64F"
-  }
+  // const craft_web = () => {
+  //   window.location.href = ("https://craft-inky.vercel.app/?vercelToolbarCode=qafqnfNnjnER64F")
+  // }
 
-  const cake_web = () => {
-    window.location.href = "https://cake-dlng8ygf6-harmi123456s-projects.vercel.app/"
-  }
+  // const cake_web = () => {
+  //   window.location.href = "https://cake-dlng8ygf6-harmi123456s-projects.vercel.app/"
+  // }
 
-  const foodly_web = () => {
-    window.location.href = "https://foodly-eosin.vercel.app/?vercelToolbarCode=W3It6lr4LA9aUO8"
-  }
+  // const foodly_web = () => {
+  //   window.location.href = "https://foodly-eosin.vercel.app/?vercelToolbarCode=W3It6lr4LA9aUO8"
+  // }
 
-  const hotel_web = () => {
-    window.location.href = "https://hotel-xi-one.vercel.app/?vercelToolbarCode=Eyclwrvl8shoTD5"
-  }
+  // const hotel_web = () => {
+  //   window.location.href = "https://hotel-xi-one.vercel.app/?vercelToolbarCode=Eyclwrvl8shoTD5"
+  // }
 
-  const wedding_web = () => {
-    window.location.href = "https://674723ba59edc900c8afbd35--elegant-piroshki-3db2b3.netlify.app/"
-  }
+  // const wedding_web = () => {
+  //   window.location.href = "https://674723ba59edc900c8afbd35--elegant-piroshki-3db2b3.netlify.app/"
+  // }
 
-  const shutter_web = () => {
-    window.location.href = "https://674725d7dbbaf400e661db94--incomparable-haupia-9feb42.netlify.app/"
-  }
+  // const shutter_web = () => {
+  //   window.location.href = "https://674725d7dbbaf400e661db94--incomparable-haupia-9feb42.netlify.app/"
+  // }
 
-  const spark_web = () => {
-    window.location.href = "https://6747282eb9581400bbb27ff4--inquisitive-gelato-816db8.netlify.app/"
-  }
+  // const spark_web = () => {
+  //   window.location.href = "https://6747282eb9581400bbb27ff4--inquisitive-gelato-816db8.netlify.app/"
+  // }
 
-  const cookie_web = () => {
-    window.location.href = "https://674728af15eda804d744443d--fluffy-gecko-16e507.netlify.app/#top"
-  }
+  // const cookie_web = () => {
+  //   window.location.href = "https://674728af15eda804d744443d--fluffy-gecko-16e507.netlify.app/#top"
+  // }
 
-  const basilico_web = () => {
-    window.location.href = "https://6747293d59edc90755afbdfd--magenta-entremet-ea90e7.netlify.app/"
-  }
+  // const basilico_web = () => {
+  //   window.location.href = "https://6747293d59edc90755afbdfd--magenta-entremet-ea90e7.netlify.app/"
+  // }
 
-  const zomato_web = () => {
-    window.location.href = "https://67472a3fdbbaf4074261dbe8--monumental-clafoutis-71a3a7.netlify.app/"
-  }
+  // const zomato_web = () => {
+  //   window.location.href = "https://67472a3fdbbaf4074261dbe8--monumental-clafoutis-71a3a7.netlify.app/"
+  // }
 
   return (
     <div>
@@ -200,7 +196,7 @@ export default function Home() {
 
           <div className="nav">
             <div className="blue"></div> &nbsp;&nbsp;&nbsp;
-            <h1>Harmi Pagada / <span style={{ fontSize: '20px', fontWeight: "lighter" }} >DEVELOPER</span> </h1>
+            <h1>Harmi Pagada / <span >DEVELOPER</span> </h1>
           </div>
           <div className="nav" id='nav'>
             <a href="#profile">PROFILE</a>
@@ -232,19 +228,19 @@ export default function Home() {
               <div className="white">
 
                 <div className="icon">
-                  <i style={{fontSize:'25px'}} class="fa-brands fa-meta"></i>
+                  <i class="fa-brands fa-meta"></i>
                   {/* <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAZZJREFUSEvtltFNxEAMRH2dQCdQCVAJUAlQCVAJdAL3pJ1o4nj3EiGR+zhLJ12y3hl7MuvkEDvFYSfeuBD/m/JnL/VNRHy33ylVVuWOOr6KiJeIAMjj4XjvIxVR5ZJDLgUvokcM2fugteeIeG2gkH5ZLkTcU1xX5BVxBqLytyP4XQMUKOSsqUDvkMJRi1wKuc3kFfFTRDy2cukKuRQAQSRydQcp4DlQgtyMsxgg3i2gyJSjIq/y2HffOuf/TPLcsXeLlFxX4XkL0LRBXc/wMvFP29TrVpgC0/XaIic+J3aZ1wDpmOh5l+5tx1EGnHK2Eufi6FhGLN3bJJGSGBAjzszlRsDJODEHlWsyyVAue08p5Uy43rEbZqrMmHvredhUki8M5sSjjl3ixZls7pfk1aiU1JMiTuyVO7if25Hbe5J70eUzRlXfDPlnM4+Pyd7ZzoNF+xmdivI4sQioZnI2Vs9wnpcHi68NB0iPfA2pSPAKz9vfUAu3n3ofA1a+Tzuj1G8PPwjO/tNnRYPbUi4db9PrD9m7Sf0LkDl0H35XXYsAAAAASUVORK5CYII=" /> */}
                 </div>
                 <div className="icon">
-                  <div className="Github" style={{fontSize:'28px'}}><i class="fa-brands fa-github"></i></div>
+                  <div className="Github" ><i class="fa-brands fa-github"></i></div>
                   {/* <img className='Github' src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAa1JREFUSEvFlo1NAzEMRtNNYBOYBJgEmASYpHSSsgncQ/cdjuskboR0lqpCleT5c/yTQ9nJDjtxywz4rpRyszrM9+f691cphU/KsmAAzwvEQiMATjxlHMiA35aDHlMy/ha9l1Jeew70wKgEisoZI+z3LXgLDPQ8Qwv23EbwFvholCp5ssqVZFofKo/AL2siyXmShTvjIBLMZjJr+F+/faxZzlqcl3HfnLuZB0ch5p6kOhv96Jwq5B7s1QL6LzBRI3q/5sHfThL3g6czRnKq0Wj/ptqCo/Bc3M0VHnSjZ8E+IWbDLN+i85SoVajpTjQMa2ENJlVHEUyDZxJLfnWvbhTqzcOkSrssfcds8lmdnjaBY7b7XVSRL6eoBGYyO8qXqjR7DYSFqsPhmDOKW2O0EhD1aqnWQOcgOUDo6cc4Yg2F6uOtdKhYoyFBOXHog4FHCTcao8MhIW+lGoWUlH3yeLV+j1cctt3eC0RwvAU2eshFidns9aM3lz1MA54IRObB3QEzAgOwidM7zIKHJZgBS536+DZTnWwaxmn5rXpppFJ8oi1Ob7lG8TQk2rgb+AfWnmsfmQKnwwAAAABJRU5ErkJggg==" /> */}
                 </div>
                 <div className="icon">
-                  <div className='LinkedIn'style={{fontSize:'28px'}} ><i class="fa-brands fa-linkedin-in"></i></div>
+                  <div className='LinkedIn' ><i class="fa-brands fa-linkedin-in"></i></div>
                   {/* <img className='LinkedIn' src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAATVJREFUSEvtljFuwkAQRR8HoExDFVrOkEhwDhQBoghHSAfcgg4iRWlzAkSU9Gkpk0PkAORHCxoPNga0lhHySCtL6915npm/O65RktVK4nJx4D5wAyyBryKykhbxJ3BnYA/AS2y4Bz8CMwdZA62iweM/wMRBfoF60eB74MNBXoFu0WD5HwFPQAN4A4aAoo5qF3eczo3uFtD4CSPTj49Ym1Zu9bMRnITXc+87ATYPT/v6HRikfUQa+Ns5XoTNmhZYyrc2TZnLhccAH1MWfVzimMYGq7YqlzelXCXZWSywnMp5Vjk037S1jgHeS2MQaNuFHR0s1UqA1qRwdThrNit7/Vj1OVXVCYcH0l2BE3WoUq105F2Zlbiybq+Dx0mb/I1je+u23/ru4+/m3HVX8wdyTIv8X1NaxBtPCGofbR6NigAAAABJRU5ErkJggg==" /> */}
                 </div>
                 <div className="icon">
-                  <div className="insta-icon" style={{fontSize:'28px'}}><i class="fa-brands fa-instagram"></i></div>
+                  <div className="insta-icon" ><i class="fa-brands fa-instagram"></i></div>
                   {/* <img className="insta-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAcBJREFUSEvllk1OxDAMhT03gZMABwEBFwFOws9F+NmyZQ+cBPqN/JBJnTZtFhUi0qgznfg9+9lxvLON1m4jXvsTxAdmxmduPc1t4P+5iK/N7MjMjlvAfM+HP++HJ/bpqhFDdBsiFJieU35EJ9l/YmYjuxrxu5Mi280QcZN87o3SgeM4Aelh6WlGjMG5k+Ht0nXqKXxx1SC/M7OLCJQRK1q8bJE24kH64C8gwv4xizoj/nLDWhqQEkUoOoA/PSK+nw2yUlSsSyclkJHcJTigbCSnmcxU6VWiPcCqYpwC983MXh0PXPB+aqUkJh9IkxFHUgpOaSByyFi8L48QeOCuIpYSgP8CcEI5jDPkNp6CLmJFO6rOILtOQxl1F7FAiQbybNXS1EWcGhfs5BkHS1W6iDeTOhZXJrdkzoqvK2IAJSXfkfM59Gad7ew4qRNOHqepBqKOlTWQ2hnmfdqCa50rvVFChEhL48AZIkeBWl9PW3DWj1squPXGUnpmezWAquBav24lZZ+CaLoWkQ8DnmsGAQixXTwIyFDk/O4ZfcrevVdsatiL9+6SYU+Orhr2yjy2jrbYNc1nc+PtkkJatPf/EX8DIXGOHzTONr8AAAAASUVORK5CYII=" alt="Instagram Icon" /> */}
                 </div>
 
@@ -352,20 +348,20 @@ export default function Home() {
 
       <div className="sec4">
         <div className="count">
-          <h1>{count}</h1>
+          <h1>{count}  </h1>
           <p>Projects Completed</p>
         </div>
         <div className="count">
-          <h1>{count1}</h1>
+          <h1>{count1} </h1>
           <p>Learning Hours</p>
         </div>
         <div className="count">
-          <h1>{count2}</h1>
+          <h1>{count2} </h1>
           <p>Cups Of Coffee</p>
         </div>
         <div className="count">
-          <h1>{count3}</h1>
-          <p>Real Professinals</p>
+          <h1>{count3} +</h1>
+          <p>Company Visit</p>
         </div>
       </div>
 
@@ -379,48 +375,71 @@ export default function Home() {
               <img src="/craft.jpeg" alt="Craft Project" className="project-image" />
               <h3 className="project-title">Craft Project</h3>
               <p className="project-description">A beautiful craft-making project.</p>
-              <button className="live_web" onClick={craft_web}>Explore More</button>
+              {/* <button className="live_web" onClick={craft_web}>
+                <a href="" target='blank'>Explore More</a>
+              </button> */}
+              <button className='live_web'>
+                <a href="https://craft-inky.vercel.app/?vercelToolbarCode=qafqnfNnjnER64F" target='_blank' style={{textDecoration:"none", color:'white'}}>Explore More </a>
+              </button>
             </div>
 
             <div className="project-card">
               <img src="/cakestore.jpeg" alt="Craft Project" className="project-image" />
               <h3 className="project-title">cake Project</h3>
               <p className="project-description">Delicious Cakes</p>
-              <button className="live_web" onClick={cake_web}>Explore More</button>
+              <button className='live_web'>
+                <a href="https://cake-dlng8ygf6-harmi123456s-projects.vercel.app/" target='_blank' style={{textDecoration:"none", color:'white'}}>Explore More </a>
+              </button>
+              {/* <button className="live_web" onClick={cake_web}>Explore More</button> */}
             </div>
 
             <div className="project-card">
               <img src="/foodly.jpeg" alt="Craft Project" className="project-image" />
               <h3 className="project-title">Foodly Project</h3>
               <p className="project-description">"Discover recipes, savor flavors, and enjoy  <br /> the art of cooking with Foodly!"</p>
-              <button className="live_web" onClick={foodly_web}>Explore More</button>
+              <button className='live_web'>
+                <a href="https://foodly-eosin.vercel.app/?vercelToolbarCode=W3It6lr4LA9aUO8" target='_blank' style={{textDecoration:"none", color:'white'}}>Explore More </a>
+              </button>
+              {/* <button className="live_web" onClick={foodly_web}>Explore More</button> */}
             </div>
 
             <div className="project-card">
               <img src="/basiliico.jpeg" alt="Portfolio Project" className="project-image" />
               <h3 className="project-title">Hotel</h3>
               <p className="project-description">"Enjoy your Meal"</p>
-              <button className="live_web" onClick={basilico_web}>Explore More</button>
+              <button className='live_web'>
+                <a href="https://6747293d59edc90755afbdfd--magenta-entremet-ea90e7.netlify.app/" target='_blank' style={{textDecoration:"none", color:'white'}}>Explore More </a>
+              </button>
+              {/* <button className="live_web" onClick={basilico_web}>Explore More</button> */}
             </div>
 
             <div className="project-card">
               <img src="/cookies.jpeg" alt="E-commerce Project" className="project-image" />
               <h3 className="project-title">Cookies</h3>
               <p className="project-description">"Cookies are delicious baked treats, <br /> often sweet and crispy, enjoyed <br /> as snacks or desserts worldwide."</p>
-              <button className="live_web" onClick={cookie_web}>Explore More</button>
+              <button className='live_web'>
+                <a href="https://674728af15eda804d744443d--fluffy-gecko-16e507.netlify.app/#top" target='_blank' style={{textDecoration:"none", color:'white'}}>Explore More </a>
+              </button>
+              {/* <button className="live_web" onClick={cookie_web}>Explore More</button> */}
             </div>
 
             <div className="project-card">
               <img src="/hotel.jpeg" alt="Blog Project" className="project-image" />
               <h3 className="project-title"> Hotel</h3>
               <p className="project-description">"Stay fearlessly"</p>
-              <button className="live_web" onClick={hotel_web}>Explore More</button>
+              <button className='live_web'>
+                <a href="https://hotel-xi-one.vercel.app/?vercelToolbarCode=Eyclwrvl8shoTD5" target='_blank' style={{textDecoration:"none", color:'white'}}>Explore More </a>
+              </button>
+              {/* <button className="live_web" onClick={hotel_web}>Explore More</button> */}
             </div>
 
             <div className="project-card">
               <img src="/shutter.jpeg" alt="Blog Project" className="project-image" />
               <h3 className="project-title">Shutter</h3>
-              <button className="live_web" onClick={shutter_web}>Explore More</button>
+              <button className='live_web'>
+                <a href="https://674725d7dbbaf400e661db94--incomparable-haupia-9feb42.netlify.app/" target='_blank' style={{textDecoration:"none", color:'white'}}>Explore More </a>
+              </button>
+              {/* <button className="live_web" onClick={shutter_web}>Explore More</button> */}
               {/* <p className="project-description"> ""</p> */}
             </div>
 
@@ -428,21 +447,30 @@ export default function Home() {
               <img src="/spark.jpeg" alt="Blog Project" className="project-image" />
               <h3 className="project-title">Blog Project</h3>
               <p className="project-description">A blog for sharing ideas and stories.</p>
-              <button className="live_web" onClick={spark_web}>Explore More</button>
+              <button className='live_web'>
+                <a href="https://6747282eb9581400bbb27ff4--inquisitive-gelato-816db8.netlify.app/" target='_blank' style={{textDecoration:"none", color:'white'}}>Explore More </a>
+              </button>
+              {/* <button className="live_web" onClick={spark_web}>Explore More</button> */}
             </div>
 
             <div className="project-card">
               <img src="/sunshine.jpeg" alt="Blog Project" className="project-image" />
               <h3 className="project-title">Wedding</h3>
               <p className="project-description">"A wedding is a celebration of love and <br /> commitment, uniting two souls in a lifelong bond."</p>
-              <button className="live_web" onClick={wedding_web}>Explore More</button>
+              <button className='live_web'>
+                <a href="https://674723ba59edc900c8afbd35--elegant-piroshki-3db2b3.netlify.app/" target='_blank' style={{textDecoration:"none", color:'white'}}>Explore More </a>
+              </button>
+              {/* <button className="live_web" onClick={wedding_web}>Explore More</button> */}
             </div>
 
             <div className="project-card">
               <img src="/zomato.jpeg" alt="Blog Project" className="project-image" />
               <h3 className="project-title">Zomato 😋</h3>
               <p className="project-description"> "Crave it, order it, love it—deliciousness delivered!"</p>
-              <button className="live_web" onClick={zomato_web}>Explore More</button>
+              <button className='live_web'>
+                <a href="https://67472a3fdbbaf4074261dbe8--monumental-clafoutis-71a3a7.netlify.app/" target='_blank' style={{textDecoration:"none", color:'white'}}>Explore More </a>
+              </button>
+              {/* <button className="live_web" onClick={zomato_web}>Explore More</button> */}
             </div>
 
           </div>
@@ -599,19 +627,19 @@ export default function Home() {
 
             <div className="icons">
               <div className="face">
-                <i class="fa-brands fa-meta" style={{fontSize:'25px'}}></i>
+                <i class="fa-brands fa-meta" ></i>
                 {/* <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAZZJREFUSEvtltFNxEAMRH2dQCdQCVAJUAlQCVAJdAL3pJ1o4nj3EiGR+zhLJ12y3hl7MuvkEDvFYSfeuBD/m/JnL/VNRHy33ylVVuWOOr6KiJeIAMjj4XjvIxVR5ZJDLgUvokcM2fugteeIeG2gkH5ZLkTcU1xX5BVxBqLytyP4XQMUKOSsqUDvkMJRi1wKuc3kFfFTRDy2cukKuRQAQSRydQcp4DlQgtyMsxgg3i2gyJSjIq/y2HffOuf/TPLcsXeLlFxX4XkL0LRBXc/wMvFP29TrVpgC0/XaIic+J3aZ1wDpmOh5l+5tx1EGnHK2Eufi6FhGLN3bJJGSGBAjzszlRsDJODEHlWsyyVAue08p5Uy43rEbZqrMmHvredhUki8M5sSjjl3ixZls7pfk1aiU1JMiTuyVO7if25Hbe5J70eUzRlXfDPlnM4+Pyd7ZzoNF+xmdivI4sQioZnI2Vs9wnpcHi68NB0iPfA2pSPAKz9vfUAu3n3ofA1a+Tzuj1G8PPwjO/tNnRYPbUi4db9PrD9m7Sf0LkDl0H35XXYsAAAAASUVORK5CYII=" /> */}
               </div>
               <div className="face" onClick={Git_foot}>
-                <div className='Github' style={{fontSize:'28px'}}><i class="fa-brands fa-github"></i></div>
+                <div className='Github' ><i class="fa-brands fa-github"></i></div>
                 {/* <img className='Github' src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAa1JREFUSEvFlo1NAzEMRtNNYBOYBJgEmASYpHSSsgncQ/cdjuskboR0lqpCleT5c/yTQ9nJDjtxywz4rpRyszrM9+f691cphU/KsmAAzwvEQiMATjxlHMiA35aDHlMy/ha9l1Jeew70wKgEisoZI+z3LXgLDPQ8Qwv23EbwFvholCp5ssqVZFofKo/AL2siyXmShTvjIBLMZjJr+F+/faxZzlqcl3HfnLuZB0ch5p6kOhv96Jwq5B7s1QL6LzBRI3q/5sHfThL3g6czRnKq0Wj/ptqCo/Bc3M0VHnSjZ8E+IWbDLN+i85SoVajpTjQMa2ENJlVHEUyDZxJLfnWvbhTqzcOkSrssfcds8lmdnjaBY7b7XVSRL6eoBGYyO8qXqjR7DYSFqsPhmDOKW2O0EhD1aqnWQOcgOUDo6cc4Yg2F6uOtdKhYoyFBOXHog4FHCTcao8MhIW+lGoWUlH3yeLV+j1cctt3eC0RwvAU2eshFidns9aM3lz1MA54IRObB3QEzAgOwidM7zIKHJZgBS536+DZTnWwaxmn5rXpppFJ8oi1Ob7lG8TQk2rgb+AfWnmsfmQKnwwAAAABJRU5ErkJggg==" /> */}
               </div>
               <div className="face" onClick={LinkedIn_foot}>
-                <div className='LinkedIn' style={{fontSize:'28px'}}><i class="fa-brands fa-linkedin-in"></i></div>
+                <div className='LinkedIn' ><i class="fa-brands fa-linkedin-in"></i></div>
                 {/* <img className='LinkedIn' src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAATVJREFUSEvtljFuwkAQRR8HoExDFVrOkEhwDhQBoghHSAfcgg4iRWlzAkSU9Gkpk0PkAORHCxoPNga0lhHySCtL6915npm/O65RktVK4nJx4D5wAyyBryKykhbxJ3BnYA/AS2y4Bz8CMwdZA62iweM/wMRBfoF60eB74MNBXoFu0WD5HwFPQAN4A4aAoo5qF3eczo3uFtD4CSPTj49Ym1Zu9bMRnITXc+87ATYPT/v6HRikfUQa+Ns5XoTNmhZYyrc2TZnLhccAH1MWfVzimMYGq7YqlzelXCXZWSywnMp5Vjk037S1jgHeS2MQaNuFHR0s1UqA1qRwdThrNit7/Vj1OVXVCYcH0l2BE3WoUq105F2Zlbiybq+Dx0mb/I1je+u23/ru4+/m3HVX8wdyTIv8X1NaxBtPCGofbR6NigAAAABJRU5ErkJggg==" /> */}
               </div>
               <div className="face" onClick={Insta_foot}>
-                <div className="insta-icon" style={{fontSize:'28px'}}><i class="fa-brands fa-instagram"></i></div>
+                <div className="insta-icon" ><i class="fa-brands fa-instagram"></i></div>
                 {/* <img className="insta-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAcBJREFUSEvllk1OxDAMhT03gZMABwEBFwFOws9F+NmyZQ+cBPqN/JBJnTZtFhUi0qgznfg9+9lxvLON1m4jXvsTxAdmxmduPc1t4P+5iK/N7MjMjlvAfM+HP++HJ/bpqhFDdBsiFJieU35EJ9l/YmYjuxrxu5Mi280QcZN87o3SgeM4Aelh6WlGjMG5k+Ht0nXqKXxx1SC/M7OLCJQRK1q8bJE24kH64C8gwv4xizoj/nLDWhqQEkUoOoA/PSK+nw2yUlSsSyclkJHcJTigbCSnmcxU6VWiPcCqYpwC983MXh0PXPB+aqUkJh9IkxFHUgpOaSByyFi8L48QeOCuIpYSgP8CcEI5jDPkNp6CLmJFO6rOILtOQxl1F7FAiQbybNXS1EWcGhfs5BkHS1W6iDeTOhZXJrdkzoqvK2IAJSXfkfM59Gad7ew4qRNOHqepBqKOlTWQ2hnmfdqCa50rvVFChEhL48AZIkeBWl9PW3DWj1squPXGUnpmezWAquBav24lZZ+CaLoWkQ8DnmsGAQixXTwIyFDk/O4ZfcrevVdsatiL9+6SYU+Orhr2yjy2jrbYNc1nc+PtkkJatPf/EX8DIXGOHzTONr8AAAAASUVORK5CYII=" alt="Instagram Icon" /> */}
               </div>
             </div>
