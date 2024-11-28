@@ -395,7 +395,7 @@ html{
   .skill {
     height: 800px;
     /* border: 2px solid; */
-    background: linear-gradient(rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.366)), url("./public/girl_3.gif");
+    background: linear-gradient(rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.366)), url("/public/girl_3.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -807,7 +807,7 @@ img.vert-move {
 .contact {
   height: 1000px;
   /* border: 2px solid; */
-  background: url("./public/footer_back.jpg");
+  background: url("/public/footer_back.jpg");
   /* background: url("https://designmodo.com/wp-content/uploads/2012/01/5-Contact-Us-by-Ivan-Poddubchenko.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
