@@ -480,7 +480,7 @@ export default function Home() {
           </div>
 
           <div className="react">
-            <img className="vert-move" src="/react.GIF" />
+            <img className="vert-move" src="/react.gif" />
             <p>React.js</p>
           </div>
 
@@ -543,7 +543,7 @@ export default function Home() {
             </div>
 
             <div class="center-logo">
-              <img src="/public/girl.GIF" alt="" />
+              <img src="/girl.gif" alt="" />
             </div>
           </div>
 
