@@ -622,7 +622,7 @@ export default function Home() {
             </div> */}
             <div className="email">
               <i class="fa-solid fa-envelope"></i>
-              <p>harmipaga4@gmail.com</p>
+              <p>harmipagada4@gmail.com</p>
             </div> <br />
 
             <div className="icons">
