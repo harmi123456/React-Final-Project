@@ -28,7 +28,7 @@ html {
 
   .nav {
     width: 30%;
-    font-family: "Griffy", system-ui;
+    font-family: "Merriweather", serif;
     /* border: 2px solid; */
     height: 30px;
     display: flex;
@@ -36,6 +36,7 @@ html {
     span{
       font-size: 20px;
       font-weight: lighter;
+      color: rgb(40, 38, 38);
     }
 
     .blue {
@@ -134,9 +135,10 @@ html {
         }
       }
 
-      h1 {
-        font-family: "Griffy", system-ui;
-        letter-spacing: 2px;
+      h1{
+        font-family: "Merriweather", serif;
+        font-weight: 400;
+        font-size: 30px;
       }
 
       .blue_line {
@@ -248,7 +250,6 @@ html {
 
 }
 
-/* //sec4 */
 .sec3 {
   height: 800px;
   /* border: 2px solid; */
@@ -296,6 +297,7 @@ html {
 
 .sec4 {
   height: 300px;
+  font-family: "Merriweather", serif;
   /* border: 2px solid; */
   background: linear-gradient(to right, #7da3e1, #a8e0fa);
   display: flex;
@@ -312,6 +314,10 @@ html {
     justify-content: center;
     text-align: center;
   }
+  p{
+    font-size: 15px;
+    margin: 5px;
+  }
 }
 
 .sec5 {
@@ -322,7 +328,7 @@ html {
   h2 {
     margin-top: 50px;
     text-align: center;
-    font-family: "Griffy", system-ui;
+    font-family: "Merriweather", serif;
     letter-spacing: 2px;
   }
 

@@ -253,7 +253,7 @@ export default function Home() {
           <div className="left">
 
             <div className="intro">
-              <h2>"Welcome to my world of code!" &nbsp;!</h2>
+              <h2>" Welcome to my world of code..!"</h2>
               <h3>Here's who I am & what I do</h3>
               <div className="resume">
                 <div className="project" id='pro_1'>
@@ -616,10 +616,10 @@ export default function Home() {
               <i class="fa-solid fa-location-dot"></i>
               <p>"Khodyar Krupa" Naval nagar-3 corner <br /> Nr. Khodiyar Mandap Service</p>
             </div> <br />
-            <div className="number">
+            {/* <div className="number">
               <i class="fa-solid fa-phone"></i>
               <p>91+ 8160882975</p>
-            </div>
+            </div> */}
             <div className="email">
               <i class="fa-solid fa-envelope"></i>
               <p>harmipaga4@gmail.com</p>
