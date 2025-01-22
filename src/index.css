@@ -828,7 +828,7 @@ img.vert-move {
 .contact {
   height: 1000px;
   /* border: 2px solid; */
-  background: url("/public/footer_back.jpg");
+  background: url("/footer_back.jpg");
   /* background: url("https://designmodo.com/wp-content/uploads/2012/01/5-Contact-Us-by-Ivan-Poddubchenko.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
